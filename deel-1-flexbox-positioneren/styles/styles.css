@@ -1,1 +1,75 @@
 /*Schrijf hier jouw CSS*/
+
+
+/*opdrcht1*/
+.opdracht-1{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+}
+
+/*opdracht2 /Ik weet niet of dit de juiste manier is, echter heb ik veel class gebruikt, met wrap lukt het me niet*/
+.opdracht-2{
+    display: flex;
+    flex-direction: row;
+
+}
+
+.zin-een{
+    flex-basis: 33%;
+}
+.zin-twee{
+    flex-basis: 33%;
+}
+.zin-drie{
+
+    flex-basis: 33%;
+}
+
+/*opdracht3*/
+.opdracht-3{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.topLeft{
+    align-self: flex-start;
+}
+.center{
+    align-self: center;
+}
+.bottomRight{
+    align-self: end;
+}
+
+/*opdracht4*/
+.opdracht-4{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+/*opdrach5*/
+
+.opdracht-5{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.opdracht-5 > ul{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.center{
+    align-items: center;
+}
+.eind{
+    align-items: end;
+}

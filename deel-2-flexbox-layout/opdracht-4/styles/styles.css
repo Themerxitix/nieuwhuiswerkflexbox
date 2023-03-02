@@ -1,1 +1,52 @@
 /*Schrijf hier jouw CSS*/
+
+body{
+    display: flex;
+    height: 100vh;
+}
+
+/*Ik krijg het steeds niet voor elkaar om de flex-basis op de juiste breedte te krijgen op de nav*/
+.outer-col-1{
+    flex-direction: row;
+    flex-basis: auto;
+    flex-grow: 0;
+    flex-shrink: 1;
+}
+
+.outer-col-2{
+    flex-basis: auto;
+    flex-grow: 1;
+    flex-shrink: 0;
+}
+
+.inner-row{
+    display: flex;
+    flex-basis: auto;
+}
+
+.inner-col{
+    display: flex;
+    flex-direction: column;
+    flex-basis: 1000px;
+}
+
+.header{
+    flex-grow: 0;
+    flex-shrink: 1;
+}
+
+.article{
+    flex-grow: 1;
+    flex-shrink: 0;
+}
+
+footer{
+    flex-grow: 0;
+    flex-shrink: 1;
+}
+aside{
+    flex-direction: row;
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: 30%;
+}
