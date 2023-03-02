@@ -1,1 +1,83 @@
 /*Schrijf hier jouw css*/
+
+body{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-color: #f2f3d9;
+    flex-basis: auto;
+
+}
+.div{
+    text-align: center;
+}
+.article{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 350px;
+    flex-basis: auto;
+    flex-grow: 1;
+    flex-shrink: 0;
+
+}
+
+.p1{
+
+    display: flex;
+    align-items: end;
+    background-color: #c16e70;
+    max-width: 280px;
+    border-radius: 5px;
+    font-size: 24px;
+    text-align: center;
+    margin: 0 auto;
+    flex-grow: 1;
+    flex-shrink: 0;
+
+
+
+}
+.p2{
+    display: flex;
+    align-items: end;
+    background-color: #c16e70;
+    max-width: 280px;
+    border-radius: 5px;
+    font-size: 24px;
+    text-align: center;
+    margin: 0 auto;
+    flex-grow: 1;
+    flex-shrink: 0;
+
+}
+.p3{
+    display: flex;
+    align-items: end;
+    background-color: #c16e70;
+    max-width: 280px;
+    border-radius: 5px;
+    font-size: 24px;
+    text-align: center;
+    margin: 0 auto;
+    flex-grow: 1;
+    flex-shrink: 0;
+}
+.header{
+    font-size: 30px;
+    display: flex;
+    background-color: #030027;
+    color: #E6EAEB;
+    align-content: center;
+    width: 800px;
+
+}
+
+.divHeader{
+    color: #E6EAEB;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #030027;
+    flex-basis: 10%;
+}

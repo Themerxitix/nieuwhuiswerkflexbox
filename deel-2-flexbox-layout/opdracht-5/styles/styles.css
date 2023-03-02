@@ -1,1 +1,46 @@
 /*Schrijf hier jouw CSS*/
+
+body{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.header{
+    flex-basis: 100px;
+    flex-grow: 0;
+    flex-shrink: 1;
+}
+
+.main{
+    display: flex;
+    flex-direction: row;
+    flex-basis: auto;
+    /*ik heb flex-basis auto gebruikt. Zonder text is de hoogte NIET zoals het voorbeeld. Om dat voorelkaar te krijgen is een hoogte van 100% nodig, wanneer ik dan extra text toevoeg loopt die dan uit de container. Vandaar dat ik voor auto heb gekozen. Mocht er een andere oplossing zijn hoor ik het graag. */
+
+
+}
+.article{
+    flex-basis: 50%;
+    flex-grow: 1;
+    flex-shrink: 0;
+}
+.nav{
+    flex-basis: 50%;
+    flex-grow: 0;
+    flex-shrink: 1;
+    order: -1;
+}
+
+.aside{
+    flex-basis: 50%;
+    flex-grow: 0;
+    flex-shrink: 1;
+
+
+}
+.footer{
+    flex-basis: 100px;
+    flex-grow: 0;
+    flex-shrink: 1;
+}
